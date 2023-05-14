@@ -15,6 +15,12 @@ TextView txt;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        /*
+        * MVC
+        * Model - MyModel Class (Data - API/Room)
+        * View - TextView (UI)
+        * Controller - MainActivity (Logic)
+        * */
         initiateUI();
         btn.setOnClickListener((v) -> {
             showAppInData();
